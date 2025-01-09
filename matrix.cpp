@@ -2,6 +2,9 @@
 #include "matrix.hpp"
 
 void runTests() {
+    
+    using namespace md;
+
     try {
         std::cout << "Test 1: Creating a matrix and displaying it\n";
         Matrix m1({{1, 2, 3}, {4, 5, 6}, {7, 8, 9}});
